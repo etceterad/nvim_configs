@@ -11,7 +11,6 @@ if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
   Plug 'kristijanhusak/defx-git'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'neovim/nvim-lspconfig'
   Plug 'williamboman/nvim-lsp-installer'
   Plug 'tami5/lspsaga.nvim'
   Plug 'folke/lsp-colors.nvim'
@@ -21,6 +20,7 @@ if has("nvim")
   Plug 'hrsh7th/nvim-cmp'
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'kyazdani42/nvim-web-devicons'
+  Plug 'neovim/nvim-lspconfig'
   Plug 'onsails/lspkind-nvim'
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
